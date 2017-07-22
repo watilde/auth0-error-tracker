@@ -1,9 +1,8 @@
-const parseError = require('parse-error')
 const MongoClient = require('mongodb').MongoClient
 
 const post = (data, cb) => {
   try {
-    const error = parseError(JSON.parse(data.error))
+    const error = JSON.parse(data.error)
     MongoClient.connect(data.MONGO_URL, function (err, db) {
       if (err) return cb(err)
       const col = db.collection('errors')
