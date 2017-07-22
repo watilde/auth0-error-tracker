@@ -1,0 +1,5 @@
+{
+  "user": "<dbuser>",
+  "password": "<dbpassword>",
+  "url": "mongodb://<user>:<password>@<your address>"
+}

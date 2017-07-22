@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "error-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parse-error.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "author": "Daijiro Wachi",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^2.2.30",
+    "parse-error": "^0.2.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
+  }
+}
